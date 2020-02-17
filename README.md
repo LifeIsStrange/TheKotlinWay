@@ -1,3 +1,3 @@
 # TheKotlinWay
 Kotlin workshop
-made with <3 with Fanf and Nathan Camilleri
+made with <3 by Fanf and Nathan Camilleri
