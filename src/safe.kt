@@ -34,5 +34,6 @@ fun `Kotlin c'est pas null`() {
     // safe cast
     val aInt: Int? = b as? Int
 
+    // safe recovery AKA elvis operator
     val negativeLengthIfbIsNull = b?.length ?: -1
 }
