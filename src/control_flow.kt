@@ -72,7 +72,7 @@ fun `examples of control flow`() {
     findFixPoint()
 
     // functors and higer order functions are cool!
-    // map, filter, any, fold, groupBy, etc
+    // map, flatmap, filter, any, fold, groupBy, etc
     val numbers = listOf(1, 2, 3)
     println(numbers.map { it * it }) // [1, 4, 9]
     // filter
@@ -90,4 +90,16 @@ fun `examples of control flow`() {
     val book = Book("Roberto Bolano", "2666", 2004)
 
     val (author, title, year) = book
+
+    // lazy properties (virtually infinite length)
+    // observables // get notified on property update
+    // sequences
+
+    // enums can encapsulate function
+    // companion object allow shared static variables
+
+    // asynchronicity in kotlin: coroutines
+    // optionally support actor model
+
+    // higher kinded types
 }
